@@ -1,0 +1,119 @@
+/* .background {
+background-image: url(images/background.jpg);
+/* width: 80%; */
+/* } */
+* {
+    box-sizing: border-box;
+}
+body, html {
+    width: auto;
+    height: 100%;
+    margin: 0;
+  }
+.background {
+    background-image: url("/images/background.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blue;
+}
+
+.main_page {
+    display: flex;
+    padding: 20px;
+}
+
+header {
+    height: 120px;
+}
+.upper-nav {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.logo {
+ display: flex;
+ width: 300px;
+}
+
+.logo img {
+
+}
+.logo h1 {
+    padding: 10px;
+    margin: 0;
+    position: absolute;
+    margin-left: 35px;
+
+}
+
+.search_div {
+    width: 490px;
+    padding: 1%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.knifeimg {
+    padding: 1%;
+    height: 60px;
+    position: relative;
+}
+
+.searchimg {
+    /* display: flex; */
+    flex: end;
+    height: 20px;
+    padding: 1%;
+     /* padding-right: 28px;  */
+} 
+
+.signup {
+    padding: 1%;
+}
+.login {
+    padding: 1%;
+}
+
+.profileimg {
+    /* display: flex; */
+    flex: end;
+    height: 30px; 
+    padding: 1%;
+}
+
+.sidebar {
+    width: 475px;
+    height: 800px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(179, 179, 219);
+    opacity: 0.9;
+}
+
+.img-grp img{
+    width: auto;
+    height: 300px;
+}
+
+.img-grp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.topnav {
+    display: flex;
+    /* justify-content: flex-start;
+    padding-left: 20px; */
+    padding: 10px;
+    margin: 0;
+    position: absolute;
+    justify-content: space-between;
+    margin-left: 35px;
+}    
