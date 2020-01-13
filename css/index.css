@@ -62,7 +62,7 @@ header {
     background-color: #4056a1;
     text-align: center;
     padding: 10px;
-    width: 20%;
+    /* width: 20%; */
     border-radius: 20px;
     
 }
@@ -85,6 +85,10 @@ header {
     text-decoration: none;
     color: #c5cbe3;
 
+}
+
+.searchimg .signup {
+    display: flex;
 }
 
 .login a {
