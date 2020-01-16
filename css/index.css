@@ -58,8 +58,8 @@ width: 300px;
   text-decoration: none;
   color: #c5cbe3;
   font-size: x-large;
-  border: 3px solid #59645f;
-  background-color: #889790;
+  border: 3px solid #889790;
+  background-color: eceef5;
   text-align: center;
   padding: 8px;
   border-radius: 20px;
@@ -90,6 +90,19 @@ color: #3A413A;
 
 }
 
+/* #6558F5 Button Color*/
+
+button {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #eceef5;
+}
+
 
 .login a {
   padding: 1%;
@@ -98,13 +111,16 @@ color: #3A413A;
 }
 
 /* .profileimg {
-  flex: end;
-  height: 20px; 
+  /* flex: end;
+  height: 40px; 
+  width: 40px;
   padding: 1%;
 } */
 
 .topnav a{
-  justify-content: space-evenly;text-decoration: none;
+  justify-content: space-evenly;
+  text-decoration: none;
+  flex-wrap: start;
 } 
 
 .topnav a:hover {
@@ -129,7 +145,7 @@ color: #3A413A;
   border-radius: 20px;
 }
 .topnav a:hover {
-  background-color: #535852;
+  background-color: #eceef5;
 }
 
 .sidebar {
@@ -138,7 +154,8 @@ color: #3A413A;
   margin: 20px;
   padding: 10px;
   text-align: center;
-  background-color: rgb(179, 179, 219);
+  /* background-color: rgb(179, 179, 219); */
+   background-color: rgb(141, 182, 163);
   opacity: 0.9;
 }
 
@@ -192,3 +209,19 @@ footer p {
 * {
   box-sizing: border-box;
 }
+  
+  @media screen and (max-width: 700px) {
+    .about-header {
+      padding: 2.5px;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .statement h3 {
+      font-size: 1.25rem;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    font-size: 50px;
+  }
