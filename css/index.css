@@ -129,7 +129,7 @@ table {
 body {
   width: 80%;
   margin: 0 auto;
-  background-color: red;
+  /* background-color: red; */
 }
 h1,
 h2 {
@@ -151,7 +151,7 @@ h2 {
 body {
   width: 100%;
   margin: 0;
-  background-color: red;
+  /* background-color: red; */
 }
 .statement h3 {
   text-align: center;
