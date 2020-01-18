@@ -135,7 +135,7 @@ h1,
 h2 {
   color: #252d11;
 }
-.button {
+button {
   border: none;
   padding: 15px 32px;
   text-align: center;
