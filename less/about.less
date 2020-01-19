@@ -37,37 +37,37 @@ body {
   background-color: @bg-color;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 50px 20px 50px;
-  margin-bottom: 10px;
-}
-nav button {
-  text-decoration: none;
-  color: #a3aac2;
-  font-size: x-large;
-  border: 3px solid #889790;
-  background-color: #eceef5;
-  padding: 10px;
-  width: 30%;
-  border-radius: 12px;
-}
-nav button:hover {
-  background-color: rgb(191, 187, 243);
-}
-.about-header {
-  padding: 60px;
-  text-align: center;
-}
-.about-header .about-img {
-  width: 100%;
-  max-height: auto;
-  border-radius: 12px;
-  border: 2px solid #6558F5;
-  padding: 5px;
-  box-shadow: 10px 10px 5px grey;
-}
+// nav {
+//   display: flex;
+//   justify-content: space-between;
+//   padding: 20px 50px 20px 50px;
+//   margin-bottom: 10px;
+// }
+// nav button {
+//   text-decoration: none;
+//   color: #a3aac2;
+//   font-size: x-large;
+//   border: 3px solid #889790;
+//   background-color: #eceef5;
+//   padding: 10px;
+//   width: 30%;
+//   border-radius: 12px;
+// }
+// nav button:hover {
+//   background-color: rgb(191, 187, 243);
+// }
+// .about-header {
+//   padding: 60px;
+//   text-align: center;
+// }
+// .about-header .about-img {
+//   width: 100%;
+//   max-height: auto;
+//   border-radius: 12px;
+//   border: 2px solid #6558F5;
+//   padding: 5px;
+//   box-shadow: 10px 10px 5px grey;
+// }
 
 @media screen and (max-width: 700px) {
   .about-header {
@@ -135,12 +135,13 @@ nav button:hover {
   border: 2px solid #6558F5;
   padding: 3px;
 }
-.meet-the-team .team .team-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  height: 150px;
-}
+.meet-the-team .team .team-info (flex, 150px);
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: space-around;
+  // height: 150px;
+
+
 .meet-the-team .team .team-info p {
   padding: 5px;
 }

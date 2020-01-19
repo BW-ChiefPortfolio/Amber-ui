@@ -8,3 +8,19 @@
   border-radius: 5px;
   background-color: #eceef5;
 }
+
+// .custom-layout(@justify, @align){
+// 	display: flex;
+// 	justify-content: @justify;
+// 	align-items: @align;
+// }
+// // usage
+// .custom-layout(flex-end, center);
+
+
+.meet-the-team .team .team-info (@display, @height){
+  display: @display;
+  flex-direction: column;
+  justify-content: space-around;
+  height: @height;
+}

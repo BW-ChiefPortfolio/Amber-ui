@@ -243,7 +243,7 @@ html {
   text-decoration: none;
   color: #c5cbe3;
 }
-.button {
+button {
   border: none;
   padding: 15px 32px;
   text-align: center;
@@ -352,7 +352,7 @@ p {
   align-self: center;
 }
 body {
-  background-color: #f1f0eb;
+  background-color: #eceef5;
 }
 nav {
   display: flex;
@@ -482,7 +482,7 @@ nav button:hover {
 body {
   width: 100%;
   margin: 0;
-  background-color: #f1f0eb;
+  background-color: #eceef5;
 }
 .team h3 {
   text-align: center;
