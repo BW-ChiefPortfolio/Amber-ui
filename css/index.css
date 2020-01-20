@@ -238,12 +238,7 @@ html {
   height: 60px;
   position: relative;
 }
-.button {
-  padding: 1%;
-  text-decoration: none;
-  color: #c5cbe3;
-}
-.button {
+button {
   border: none;
   padding: 15px 32px;
   text-align: center;
@@ -260,13 +255,7 @@ html {
 }
 .topnav a {
   justify-content: space-evenly;
-  text-decoration: none;
   flex-wrap: start;
-}
-.topnav a:hover {
-  color: #c5cbe3;
-}
-.topnav a {
   text-decoration: none;
   color: #c5cbe3;
   font-size: x-large;
@@ -277,6 +266,7 @@ html {
   border-radius: 20px;
 }
 .topnav a:hover {
+  color: #c5cbe3;
   background-color: #eceef5;
 }
 .sidebar {
@@ -291,6 +281,7 @@ html {
 .img-grp img {
   width: 30%;
   height: 300px;
+  border: 8px solid white;
 }
 .img-grp {
   display: flex;
@@ -352,7 +343,7 @@ p {
   align-self: center;
 }
 body {
-  background-color: #f1f0eb;
+  background-color: #eceef5;
 }
 nav {
   display: flex;
@@ -456,7 +447,7 @@ nav button:hover {
   border: 2px solid #6558F5;
   padding: 3px;
 }
-.meet-the-team .team .team-info {
+.team {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -482,7 +473,7 @@ nav button:hover {
 body {
   width: 100%;
   margin: 0;
-  background-color: #f1f0eb;
+  background-color: #eceef5;
 }
 .team h3 {
   text-align: center;
